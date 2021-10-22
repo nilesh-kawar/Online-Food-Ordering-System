@@ -1,0 +1,108 @@
+body{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+			background-image: url('');
+		}
+		.main-menu{
+			width: 100%;
+			position: relative;
+		}
+		.inner-menu{
+			padding: 25px 15px;
+			background: #000000b0;
+			color: #fff;
+			height: 80px;
+			background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/navbar-bg.jpg');
+			background-repeat: no-repeat;    
+			background-size: cover;
+			z-index: -9999;
+		}
+		.logo{
+			position: absolute;
+			left: 50%;
+			top: 25%;
+			content: "";
+			-webkit-transform: translate(-50%);
+		}
+		.logo img{
+			height: 50px;
+		}
+		.inner-menu a{
+			color: #fff;
+			padding: 5px 10px;
+			border-radius: 5px;
+			border: 1px solid #fff;
+			font-weight: 600;
+			text-decoration: none;
+		}
+		.inner-menu a:hover{
+			color: #000;
+			background-color: #4CAF50;;
+			text-decoration: none;	
+		}
+		.main-div{
+			margin-top: 50px;
+		}
+		.horizontal-line{
+			margin-top: 0px!important;
+		}
+		.desc{
+    		height: 28px;       
+    		overflow: hidden;
+		}
+		.cart-summary{
+			background: #bbb3b314;
+    		box-shadow: 0 0 10px;
+    		padding: 25px;
+		}
+		.billing{
+			padding: 15px 35px;
+		    background: #faf9f9;
+		    box-shadow: 0 0 10px;
+		    border-radius: 5px;
+		    width: 350px;
+		    /*float: right!important;*/
+		}
+		.parent-div{
+			box-shadow: 0 0 10px;
+			background: #232323b3;
+			border-radius: 15px;
+			border: 1px solid #2f2f2f!important;
+			margin-bottom: 50px;
+		}
+		.child-left{
+			text-align: right;
+		}
+		.checkout{
+			color: #fff;
+			background: linear-gradient(to left, #ff105f, #ffad06);
+			padding: 15px 40px;
+			font-size: 15px;
+			border-radius: 5px;
+			border: 1px solid #ff105f;
+			font-weight: 600;
+			text-decoration: none;
+
+		}
+		.checkout a{
+			color: #fff;
+			font-size: 15px;
+			text-decoration: none;
+		}
+		@media screen and (min-width: 800px){
+    		.main-width{
+    		  width: 600px!important;
+    		  padding-bottom: 40px;
+    		}
+  		}
+  		@media screen and (max-width: 800px){
+    		.parent-div{
+    		  padding: 25px 0!important;
+    		}
+  		}
+  		@media screen and (max-width: 450px){
+    		.mobile-hide{
+    		  display: none;
+    		}
+  		}
