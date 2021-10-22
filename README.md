@@ -1,4 +1,4 @@
-# Online-Food-Ordering-System
+<h1 align="center"> Online-Food-Ordering-System </h1>
 
 Online Food Ordering System Website using basic PHP, SQL, HTML & CSS. You can use any one of XAMPP, WAMP or LAMP server to run the Web App on your local machine. It has a food ordering module for a customer. It also provides menu, orders and user management module for admin.
 
