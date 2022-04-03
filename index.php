@@ -20,7 +20,7 @@ session_start();
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Jhatpat Foods</title>
+	<title>Tarmica's CUT Kitchen</title>
 	<!-- font awesome -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   	<!-- Bootstrap -->
@@ -191,7 +191,7 @@ session_start();
 		</div>
 		
 		<div class="site-title">
-			<h1>Jhatpat Foods</h1>
+			<h1>Tarmica's Kitchen</h1>
 		</div>
 		<div class="site-yellow-img">
 			<img src="images/img/yellow-str.png" class="img-fluid">
