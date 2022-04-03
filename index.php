@@ -35,7 +35,7 @@ session_start();
 			box-sizing: border-box;
 		}	
 		.main{
-			background-image: url('images/img/home.jpg');
+			background-image: url('images/RGFYE8609.jpg');
 			background-repeat: no-repeat;    
 			background-size: cover;
 			/*position: relative;*/

@@ -66,7 +66,7 @@
 	<div class="bg-dark pt-3 pb-3">
 		<a href="../index.php"><button type="button" class="btn btn-success ml-3" style="float:left;">HOME</button></a>
 		<a href="../menu/cart.php"><button type="button" class="btn btn-danger mr-3" style="float:right;">CART</button></a>
-		<h1 class="text-center text-light">JHATPAT FOODS</h1>
+		<h1 class="text-center text-light">Tarmicas Kitchen</h1>
 	</div>
 
 	<div class="text-center pt-5">
@@ -87,7 +87,7 @@
 				<td class="data"><?php echo $data['mobile'] ?></td>
 			</tr>
 			<tr>
-				<td class="tag">Address:</td>
+				<td class="tag">Hostel & room number eg EG21:</td>
 				<td class="data" width="300"><?php echo $data['address'] ?></td>
 			</tr>
 			<tr>

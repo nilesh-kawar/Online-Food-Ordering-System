@@ -92,7 +92,7 @@
 
 			<input class="" type="email" name="email" value="" placeholder="Email" required>
 
-			<textarea class="" name="address" placeholder="Address" required></textarea>
+			<textarea class="" name="hostelroomnumber" placeholder="hostel & room number" required></textarea>
 			
 			<input class="" type="password" name="password" value="" placeholder="Password" required>
 
@@ -118,7 +118,7 @@
 	
 		$name = $_POST['name'];
 		$mobile = $_POST['mobile'];
-		$address = $_POST['address'];
+		$address = $_POST['hostelroomnumber'];
 		$email = $_POST['email'];
 		$password = $_POST['password'];
 		$cpassword = $_POST['cpassword'];
