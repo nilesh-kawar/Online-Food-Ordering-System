@@ -44,7 +44,7 @@
 	<div class="bg-dark pt-3 pb-3">
 		<a href="account.php"><button type="button" class="btn btn-success ml-3" style="float:left;">BACK</button></a>
 		<a href="log-reg.php"><button type="button" class="btn btn-danger mr-3" style="float:right;">CART</button></a>
-		<h1 class="text-center text-light">JHATPAT FOODS</h1>
+		<h1 class="text-center text-light">TARMICA'S KITCHEN</h1>
 	</div>
 
 	<div class="container bg-dark text-light text-center main">
@@ -61,7 +61,7 @@
 				</tr>
 				<tr>
 					<td>Address</td>
-					<td><textarea name="address" style="width: 178px;"  required><?php echo $data['address'] ?></textarea></td>
+					<td><textarea name="location" style="width: 178px;"  required><?php echo $data['location'] ?></textarea></td>
 				</tr>
 				<tr>
 					<td colspan="2" align="center">
@@ -88,9 +88,9 @@
 	
 		$name = $_POST['name'];
 		$mobile = $_POST['mobile'];
-		$address = $_POST['address'];
+		$address = $_POST['location'];
 
-		$uquery = "UPDATE `user` SET `name`= '$name',`mobile`= '$mobile',`address`= '$address' WHERE `id`= '$uid'";
+		$uquery = "UPDATE `user` SET `name`= '$name',`mobile`= '$mobile',`location`= '$address' WHERE `id`= '$uid'";
 		$urun = mysqli_query($conn, $uquery);
 
 		if ($urun == true) 

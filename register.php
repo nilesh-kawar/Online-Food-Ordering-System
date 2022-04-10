@@ -92,7 +92,7 @@
 
 			<input class="" type="email" name="email" value="" placeholder="Email" required>
 
-			<textarea class="" name="hostelroomnumber" placeholder="hostel & room number" required></textarea>
+			<textarea class="" name="location" placeholder="hostel & room number" required></textarea>
 			
 			<input class="" type="password" name="password" value="" placeholder="Password" required>
 
@@ -118,7 +118,7 @@
 	
 		$name = $_POST['name'];
 		$mobile = $_POST['mobile'];
-		$address = $_POST['hostelroomnumber'];
+		$address = $_POST['location'];
 		$email = $_POST['email'];
 		$password = $_POST['password'];
 		$cpassword = $_POST['cpassword'];
@@ -146,7 +146,7 @@
 			die();
 		}
 		
-		$sql = "INSERT INTO `user`(`name`, `mobile`, `address`, `email`, `password`, `cpassword`) VALUES ('$name', '$mobile', '$address', '$email', '$password', '$cpassword')";
+		$sql = "INSERT INTO `user`(`name`, `mobile`, `location`, `email`, `password`, `cpassword`) VALUES ('$name', '$mobile', '$address', '$email', '$password', '$cpassword')";
 		$run = mysqli_query($conn, $sql);
 		
 		if ($run == true) 
