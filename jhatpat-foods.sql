@@ -86,7 +86,7 @@ CREATE TABLE `order` (
   `qty` int(11) NOT NULL,
   `total` varchar(100) NOT NULL,
   `name` varchar(50) NOT NULL,
-  `address` varchar(100) NOT NULL,
+  `location` varchar(100) NOT NULL,
   `email` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -166,7 +166,7 @@ CREATE TABLE `user` (
   `id` int(11) NOT NULL,
   `name` varchar(200) NOT NULL,
   `mobile` varchar(200) NOT NULL,
-  `address` varchar(200) NOT NULL,
+  `location` varchar(200) NOT NULL,
   `email` varchar(200) NOT NULL,
   `password` varchar(200) NOT NULL,
   `cpassword` varchar(200) NOT NULL
@@ -176,7 +176,7 @@ CREATE TABLE `user` (
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`id`, `name`, `mobile`, `address`, `email`, `password`, `cpassword`) VALUES
+INSERT INTO `user` (`id`, `name`, `mobile`, `location`, `email`, `password`, `cpassword`) VALUES
 (1, 'Nitish Nagar', '9874651230', 'Shivaji Road, Thane(W), Thane - 400601', 'nitish@gmail.com', 'nitishfood@123', 'nitishfood@123'),
 (2, 'Nilesh Kawar', '9988776655', 'Plot-15, Sector-4, Sanpada, Navi Mumbai - 400028', 'nilesh@gmail.com', 'nileshfood-456', 'nileshfood-456'),
 (3, 'Gajodhar Singh', '9988776543', 'No Chill Nagar, Plot No. 20, Ghodbunder Rd, Thane(W)-400069', 'gajodhar@gmail.com', 'gajju@42069', 'gajju@42069'),

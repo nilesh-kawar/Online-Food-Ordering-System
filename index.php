@@ -185,7 +185,7 @@ session_start();
 					?><a href="ulogin/account.php" ><i class="fa fa-user" aria-hidden="true">&nbsp;</i><?php echo $data['name'] ?></a><?php
 				}
 				else{
-					?><a href="login.php" >Login/Sign up</a><?php
+					?><a href="login.php" >Login/Sign up(Batika iwe bharanz)</a><?php
 				}
 			?>
 		</div>
