@@ -94,7 +94,7 @@ CREATE TABLE `order` (
 -- Dumping data for table `order`
 --
 
-INSERT INTO `order` (`Id`, `orderId`, `userId`, `itemName`, `price`, `qty`, `total`, `name`, `address`, `email`) VALUES
+INSERT INTO `order` (`Id`, `orderId`, `userId`, `itemName`, `price`, `qty`, `total`, `name`, `location`, `email`) VALUES
 (18, 2, 2, 'Jalebi', '49', 1, '49', 'abcd', 'Shankar Ngr, Tilak Rd, ABC(east) eee\r\nMumbai 400001', 'aaa@g.c'),
 (19, 2, 2, 'Samosa', '15', 1, '15', 'abcd', 'Shankar Ngr, Tilak Rd, ABC(east) eee\r\nMumbai 400001', 'aaa@g.c'),
 (20, 1, 1, 'Samosa', '15', 2, '79', 'Nitish Nagar', 'Shivaji Road, Thane(W), Thane - 400601', 'nitish@gmail.com'),
